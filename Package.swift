@@ -17,7 +17,7 @@ let package = Package(
     // 修正点 1：明确指定 name 且放在 url 之前，确保编译器能准确找到 mlx-swift
     .package(name: "mlx-swift", url: "https://github.com/ml-explore/mlx-swift", from: "0.29.1"),
     // 修正点 2：建议同样指定 name，防止远程解析混乱
-    .package(name: "MisakiSwift", url: "https://github.com/mlalma/MisakiSwift", from: "1.0.4"),
+    .package(name: "MisakiSwift", url: "https://github.com/tonysmail-web//MisakiSwift", from: "1.0.4"),
     .package(name: "MLXUtilsLibrary", url: "https://github.com/mlalma/MLXUtilsLibrary.git", from: "0.0.6")
   ],
   targets: [
